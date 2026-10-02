@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAMERS | Gaming Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>🎮 GAMERS</h1>
+    <span>YOUR GAMING HUB</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">WELCOME TO GAMERS</p>
+      <h2>Discover Your Next Game</h2>
+      <p>Explore games and find your next adventure.</p>
+
+      <input
+        type="search"
+        id="searchInput"
+        placeholder="🔍 Search games..."
+        aria-label="Search games"
+      >
+    </section>
+
+    <section class="games-section">
+      <h2>Explore Games</h2>
+      <p id="gameCount"></p>
+      <div id="gamesContainer" class="games-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 GAMERS. Built for gamers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+ 
